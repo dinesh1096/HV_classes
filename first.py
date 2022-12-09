@@ -26,23 +26,41 @@
 #product2=50
 #product3=60
 
-product1=40
-product2=50
-product3=60
-product1=int(input("Enter how many kgs you want"))
-product2=int(input("Enter how many kgs you want"))
-product3=int(input("Enter how many kgs you want"))
-cost1=int(input("product1 cost"))
-cost2=int(input("product2 cost"))
-cost3=int(input("product3 cost"))
-totalAmount= product1*cost1 + product2*cost2 + product3*cost3;
-print("total amount would be ", totalAmount)
-#take input from the user : What would be the qty of product1, product 2, product3
-#We will be printing the total the user needs to pay
+# product1=40
+# product2=50
+# product3=60
+#using input function 
+product1=int(input("Enter how many kgs you want :"))
+product2=int(input("Enter how many kgs you want :"))
+product3=int(input("Enter how many kgs you want :"))
+# product4=int(input("Enter how many kgs you want"))
+# product5=int(input("Enter how many kgs you want"))
+price1=int(input("price of product1 :"))
+price2=int(input("price of product2 :"))
+price3=int(input("price of product3 :"))
 
-#expressions
-#If else statements
-#Loops
-
+#using the list
+# products = [product1,product2,product3]
+#using for loop 
+# for i in products:
+#     print(i)
+#using If _else statements
+if (product1<=0) or (product2<=0) or (product3<=0):
+    print("enter a positive number")
+else:
+    print("product quantity with price")
+    totalAmount= product1*price1 + product2*price2+ product3*price3;
+    entries ={product1 : price1, product2 : price2, product3 : price3}
+    x=open("mydata.txt","a")
+    print("the amount of all products")
+    print("the amount of all products",file=x)
+    # entries1 ={product1 : price1, product2 : price2, product3 : price3}
+    for i,p in entries.items():
+        print(i,p)
+        print(i,p,file=x)
+    print("total amount should  be paid by user:")
+    print("total amount should  be paid by user:",file=x)
+    print(totalAmount)
+    print(totalAmount,file=x)
 
 
