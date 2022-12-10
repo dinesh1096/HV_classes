@@ -11,3 +11,43 @@ the amount of all products
 4000 500
 total amount should  be paid by user:
 11400000
+the amount of all products
+20 80
+30 60
+50 40
+total amount should  be paid by user:
+5400
+the amount of all products
+88 55
+99 66
+44 44
+total amount should  be paid by user:
+13310
+the amount of all products
+77 100
+88 200
+99 300
+55 400
+66 500
+total amount should  be paid by user:
+110000
+the amount of all products
+55 400
+66 500
+total amount should  be paid by user:
+90200
+the amount of all products
+77 100
+66 200
+33 300
+55 500
+total amount should  be paid by user:
+80300
+the amount of all products
+77 100
+88 200
+99 300
+44 400
+55 500
+total amount should  be paid by user:
+100100
