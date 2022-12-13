@@ -46,12 +46,13 @@ details={"ram": 90, "rahul":85,"raghu":80,"Anik":100000}
 # print(college)
 
 
-name= input("enter college name ")
-rollnum=input("enter  rollnum")
-college={name:rollnum}
-print(college)
+# name= input("enter college name ")
+# rollnum=input("enter  rollnum")
+# college={name:rollnum}
+# print(college)
 
 # l=[]
 # students = input()
 # l=[students]
 # print(l)
+
