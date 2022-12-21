@@ -1,0 +1,2 @@
+The Numbers are: 4 5 6 1 2
+Adding all  values would be: 18
